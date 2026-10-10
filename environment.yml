@@ -1,0 +1,26 @@
+# conda env create -f environment.yml && conda activate wilddepth2
+# Then install MoGe (not on PyPI):
+#   pip install git+https://github.com/EasternJournalist/utils3d.git@3fab839f0be9931dac7c8488eb0e1600c236e183
+#   pip install --no-deps git+https://github.com/microsoft/MoGe.git
+name: wilddepth2
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.11.0
+      - torchvision==0.26.0
+      - numpy==1.26.4
+      - scipy
+      - opencv-python-headless
+      - pillow
+      - pandas
+      - matplotlib
+      - ultralytics
+      - transformers>=4.48
+      - accelerate
+      - huggingface_hub
+      - einops
+      - tqdm
+      - pytest
