@@ -1,4 +1,4 @@
-# WildDepth-v2 — code for the RGB–LiDAR–radar wildlife paper
+# WildDepth-v2 — RGB–LiDAR–radar for Wildlife
 
 Code and experiment scripts for **WildDepth-v2: A Synchronized RGB–LiDAR–Radar Dataset and
 Benchmark for Metric Depth, Motion, and Tracking of Wildlife** (IJCV special issue on Computer
