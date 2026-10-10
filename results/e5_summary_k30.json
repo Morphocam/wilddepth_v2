@@ -1,0 +1,63 @@
+{
+ "n_animals": 6804,
+ "all": {
+  "n": 6804,
+  "mae_single": 2.2574136669721656,
+  "mae_accum": 2.2453580035973357,
+  "mae_gated": 2.1682656790369,
+  "mae_flowgated": 2.0765705641686916
+ },
+ "doppler_moving": {
+  "n": 546,
+  "mae_single": 1.6387750194646176,
+  "mae_accum": 2.599463987063884,
+  "mae_gated": 1.6387750194646176,
+  "mae_flowgated": 1.902506122823934
+ },
+ "flow_moving": {
+  "n": 1057,
+  "mae_single": 1.764986785595668,
+  "mae_accum": 2.851486064566804,
+  "mae_gated": 2.4914680949594126,
+  "mae_flowgated": 1.764986785595668
+ },
+ "doppler_and_disagree>0.2": {
+  "n": 356,
+  "mae_single": 1.9268271136395623,
+  "mae_accum": 3.216800967793969,
+  "mae_gated": 1.9268271136395623,
+  "mae_flowgated": 2.248820646471017
+ },
+ "static(neither)": {
+  "n": 5432,
+  "mae_single": 2.395784589539832,
+  "mae_accum": 2.142755566360704,
+  "mae_gated": 2.142755566360704,
+  "mae_flowgated": 2.142755566360704
+ },
+ "gate_doppler": {
+  "fires": 546,
+  "fire_rate": 0.08024691358024691,
+  "precision": 0.8516483516483516,
+  "recall": 0.12547220723151645
+ },
+ "gate_flow": {
+  "fires": 1057,
+  "fire_rate": 0.15534979423868311,
+  "precision": 0.8495742667928098,
+  "recall": 0.2423097679438748
+ },
+ "gate_doppler_and_disagree": {
+  "fires": 356,
+  "fire_rate": 0.052322163433274546,
+  "precision": 0.9382022471910112,
+  "recall": 0.0901241230437129
+ },
+ "gate_doppler_or_flow": {
+  "fires": 1372,
+  "fire_rate": 0.20164609053497942,
+  "precision": 0.8316326530612245,
+  "recall": 0.30787911494873177
+ },
+ "frac_benefit": 0.5446796002351558
+}

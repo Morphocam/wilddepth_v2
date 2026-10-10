@@ -1,0 +1,822 @@
+{
+ "n_nonego_frames_with_animals": 12596,
+ "ablation": {
+  "aniso_0.6_1.0_1.5|0.3": {
+   "event_frames": 3815,
+   "radar_moving": 156937,
+   "lidar_moving": 625575,
+   "densification": 3.9861536795019656,
+   "radar_precision": 0.6446408431408782,
+   "lidar_precision": 0.7489749430523918,
+   "lidar_moving_in_box_per_frame": 122.81520314547838
+  },
+  "aniso_0.6_1.0_1.5|0.5": {
+   "event_frames": 2783,
+   "radar_moving": 98774,
+   "lidar_moving": 369351,
+   "densification": 3.73935448599834,
+   "radar_precision": 0.654240994593719,
+   "lidar_precision": 0.7180865897208888,
+   "lidar_moving_in_box_per_frame": 95.30219187926699
+  },
+  "aniso_0.6_1.0_1.5|0.7": {
+   "event_frames": 1995,
+   "radar_moving": 63814,
+   "lidar_moving": 204817,
+   "densification": 3.2095935061271823,
+   "radar_precision": 0.626085185069107,
+   "lidar_precision": 0.6491648642446672,
+   "lidar_moving_in_box_per_frame": 66.64661654135338
+  },
+  "aniso_0.6_1.0_1.5|1.0": {
+   "event_frames": 1375,
+   "radar_moving": 40804,
+   "lidar_moving": 118027,
+   "densification": 2.892535045583766,
+   "radar_precision": 0.617562003725125,
+   "lidar_precision": 0.5710557753734316,
+   "lidar_moving_in_box_per_frame": 49.018181818181816
+  },
+  "iso_0.6|0.3": {
+   "event_frames": 3815,
+   "radar_moving": 156937,
+   "lidar_moving": 306637,
+   "densification": 1.9538859542364133,
+   "radar_precision": 0.6446408431408782,
+   "lidar_precision": 0.7692809413084527,
+   "lidar_moving_in_box_per_frame": 61.83224115334207
+  },
+  "iso_0.6|0.5": {
+   "event_frames": 2783,
+   "radar_moving": 98774,
+   "lidar_moving": 172926,
+   "densification": 1.7507238747038694,
+   "radar_precision": 0.654240994593719,
+   "lidar_precision": 0.7225865399072435,
+   "lidar_moving_in_box_per_frame": 44.89902982393101
+  },
+  "iso_0.6|0.7": {
+   "event_frames": 1995,
+   "radar_moving": 63814,
+   "lidar_moving": 92020,
+   "densification": 1.442003322155013,
+   "radar_precision": 0.626085185069107,
+   "lidar_precision": 0.6347424472940665,
+   "lidar_moving_in_box_per_frame": 29.27769423558897
+  },
+  "iso_0.6|1.0": {
+   "event_frames": 1375,
+   "radar_moving": 40804,
+   "lidar_moving": 53939,
+   "densification": 1.3219047152239976,
+   "radar_precision": 0.617562003725125,
+   "lidar_precision": 0.5453011735478966,
+   "lidar_moving_in_box_per_frame": 21.391272727272728
+  },
+  "iso_1.0|0.3": {
+   "event_frames": 3815,
+   "radar_moving": 156937,
+   "lidar_moving": 544192,
+   "densification": 3.467582533118385,
+   "radar_precision": 0.6446408431408782,
+   "lidar_precision": 0.750841614724215,
+   "lidar_moving_in_box_per_frame": 107.1040629095675
+  },
+  "iso_1.0|0.5": {
+   "event_frames": 2783,
+   "radar_moving": 98774,
+   "lidar_moving": 316537,
+   "densification": 3.204659120821269,
+   "radar_precision": 0.654240994593719,
+   "lidar_precision": 0.724092286209827,
+   "lidar_moving_in_box_per_frame": 82.35788717211642
+  },
+  "iso_1.0|0.7": {
+   "event_frames": 1995,
+   "radar_moving": 63814,
+   "lidar_moving": 174805,
+   "densification": 2.7392891841915565,
+   "radar_precision": 0.626085185069107,
+   "lidar_precision": 0.6618174537341609,
+   "lidar_moving_in_box_per_frame": 57.98947368421052
+  },
+  "iso_1.0|1.0": {
+   "event_frames": 1375,
+   "radar_moving": 40804,
+   "lidar_moving": 103053,
+   "densification": 2.5255612194882855,
+   "radar_precision": 0.617562003725125,
+   "lidar_precision": 0.6002154231317866,
+   "lidar_moving_in_box_per_frame": 44.98472727272727
+  },
+  "aniso_0.6_1.0_2.5|0.3": {
+   "event_frames": 3815,
+   "radar_moving": 156937,
+   "lidar_moving": 749843,
+   "densification": 4.777987345240446,
+   "radar_precision": 0.6446408431408782,
+   "lidar_precision": 0.724023562265701,
+   "lidar_moving_in_box_per_frame": 142.30773263433815
+  },
+  "aniso_0.6_1.0_2.5|0.5": {
+   "event_frames": 2783,
+   "radar_moving": 98774,
+   "lidar_moving": 450231,
+   "densification": 4.558193451718063,
+   "radar_precision": 0.654240994593719,
+   "lidar_precision": 0.6909875152977027,
+   "lidar_moving_in_box_per_frame": 111.78727991376213
+  },
+  "aniso_0.6_1.0_2.5|0.7": {
+   "event_frames": 1995,
+   "radar_moving": 63814,
+   "lidar_moving": 252093,
+   "densification": 3.9504340740276427,
+   "radar_precision": 0.626085185069107,
+   "lidar_precision": 0.6154395401696993,
+   "lidar_moving_in_box_per_frame": 77.76842105263158
+  },
+  "aniso_0.6_1.0_2.5|1.0": {
+   "event_frames": 1375,
+   "radar_moving": 40804,
+   "lidar_moving": 142836,
+   "densification": 3.500539162827174,
+   "radar_precision": 0.617562003725125,
+   "lidar_precision": 0.5297263995071271,
+   "lidar_moving_in_box_per_frame": 55.028363636363636
+  }
+ },
+ "per_animal": {
+  "n_animals": 33448,
+  "radar_moving": 2787,
+  "flow_moving": 5594,
+  "both": 1586,
+  "precision_vs_flow": 0.5690706853247219,
+  "recall_vs_flow": 0.2835180550589918,
+  "frac_animals_with_doppler": 0.08459718936969528
+ },
+ "events_by_snippet": {
+  "snippet_26": {
+   "frames": 269,
+   "radar_moving": 5862,
+   "lidar_moving": 30336,
+   "lidar_precision": 0.582871835443038
+  },
+  "snippet_8": {
+   "frames": 242,
+   "radar_moving": 4146,
+   "lidar_moving": 22042,
+   "lidar_precision": 0.8765992196715362
+  },
+  "snippet_27": {
+   "frames": 213,
+   "radar_moving": 12560,
+   "lidar_moving": 42608,
+   "lidar_precision": 0.9668841532106647
+  },
+  "snippet_29": {
+   "frames": 211,
+   "radar_moving": 1957,
+   "lidar_moving": 15131,
+   "lidar_precision": 0.7094706232238451
+  },
+  "snippet_32": {
+   "frames": 206,
+   "radar_moving": 8221,
+   "lidar_moving": 13207,
+   "lidar_precision": 0.6124782312410085
+  },
+  "snippet_28": {
+   "frames": 195,
+   "radar_moving": 11152,
+   "lidar_moving": 30797,
+   "lidar_precision": 0.9843491249147645
+  },
+  "snippet_34": {
+   "frames": 186,
+   "radar_moving": 4081,
+   "lidar_moving": 5605,
+   "lidar_precision": 0.895807314897413
+  },
+  "snippet_36": {
+   "frames": 169,
+   "radar_moving": 2895,
+   "lidar_moving": 18716,
+   "lidar_precision": 0.8876896772814704
+  },
+  "snippet_31": {
+   "frames": 162,
+   "radar_moving": 3921,
+   "lidar_moving": 35457,
+   "lidar_precision": 0.9615026652001015
+  },
+  "snippet_33": {
+   "frames": 154,
+   "radar_moving": 14435,
+   "lidar_moving": 85449,
+   "lidar_precision": 0.3891678076981591
+  },
+  "snippet_37": {
+   "frames": 137,
+   "radar_moving": 2683,
+   "lidar_moving": 19755,
+   "lidar_precision": 0.8203492786636295
+  },
+  "snippet_25": {
+   "frames": 123,
+   "radar_moving": 2942,
+   "lidar_moving": 10512,
+   "lidar_precision": 0.8668188736681888
+  },
+  "snippet_3": {
+   "frames": 111,
+   "radar_moving": 9051,
+   "lidar_moving": 19158,
+   "lidar_precision": 0.3572919929011379
+  },
+  "snippet_9": {
+   "frames": 104,
+   "radar_moving": 1496,
+   "lidar_moving": 2507,
+   "lidar_precision": 0.8113282808137215
+  },
+  "snippet_23": {
+   "frames": 79,
+   "radar_moving": 7144,
+   "lidar_moving": 1729,
+   "lidar_precision": 0.849624060150376
+  },
+  "snippet_24": {
+   "frames": 39,
+   "radar_moving": 1597,
+   "lidar_moving": 925,
+   "lidar_precision": 0.9145945945945946
+  },
+  "snippet_10": {
+   "frames": 38,
+   "radar_moving": 716,
+   "lidar_moving": 4175,
+   "lidar_precision": 0.9635928143712574
+  },
+  "snippet_6": {
+   "frames": 36,
+   "radar_moving": 581,
+   "lidar_moving": 4383,
+   "lidar_precision": 0.9267624914442163
+  },
+  "snippet_7": {
+   "frames": 34,
+   "radar_moving": 400,
+   "lidar_moving": 1945,
+   "lidar_precision": 0.9814910025706941
+  },
+  "snippet_12": {
+   "frames": 23,
+   "radar_moving": 2355,
+   "lidar_moving": 2044,
+   "lidar_precision": 0.1634050880626223
+  },
+  "snippet_22": {
+   "frames": 13,
+   "radar_moving": 131,
+   "lidar_moving": 89,
+   "lidar_precision": 0.8426966292134831
+  },
+  "snippet_13": {
+   "frames": 11,
+   "radar_moving": 121,
+   "lidar_moving": 1475,
+   "lidar_precision": 0.9261016949152543
+  },
+  "snippet_20": {
+   "frames": 11,
+   "radar_moving": 106,
+   "lidar_moving": 5,
+   "lidar_precision": 1.0
+  },
+  "snippet_19": {
+   "frames": 5,
+   "radar_moving": 80,
+   "lidar_moving": 577,
+   "lidar_precision": 0.36568457538994803
+  },
+  "snippet_35": {
+   "frames": 4,
+   "radar_moving": 23,
+   "lidar_moving": 220,
+   "lidar_precision": 0.990909090909091
+  },
+  "snippet_30": {
+   "frames": 3,
+   "radar_moving": 16,
+   "lidar_moving": 72,
+   "lidar_precision": 0.9166666666666666
+  },
+  "snippet_2": {
+   "frames": 2,
+   "radar_moving": 13,
+   "lidar_moving": 108,
+   "lidar_precision": 0.6574074074074074
+  },
+  "snippet_11": {
+   "frames": 1,
+   "radar_moving": 8,
+   "lidar_moving": 7,
+   "lidar_precision": 1.0
+  },
+  "snippet_17": {
+   "frames": 1,
+   "radar_moving": 49,
+   "lidar_moving": 79,
+   "lidar_precision": 0.5063291139240507
+  },
+  "snippet_21": {
+   "frames": 1,
+   "radar_moving": 32,
+   "lidar_moving": 238,
+   "lidar_precision": 0.025210084033613446
+  }
+ },
+ "top_frames": [
+  {
+   "snippet": "snippet_27",
+   "frame": 49048,
+   "radar_moving": 518,
+   "lidar_moving": 3235,
+   "lidar_in_box": 3184,
+   "precision": 0.9842349304482225
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49052,
+   "radar_moving": 543,
+   "lidar_moving": 2402,
+   "lidar_in_box": 2344,
+   "precision": 0.9758534554537885
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49062,
+   "radar_moving": 296,
+   "lidar_moving": 2215,
+   "lidar_in_box": 2198,
+   "precision": 0.9923250564334086
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49064,
+   "radar_moving": 372,
+   "lidar_moving": 1950,
+   "lidar_in_box": 1948,
+   "precision": 0.9989743589743589
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55653,
+   "radar_moving": 214,
+   "lidar_moving": 2852,
+   "lidar_in_box": 1794,
+   "precision": 0.6290322580645161
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 52812,
+   "radar_moving": 89,
+   "lidar_moving": 1666,
+   "lidar_in_box": 1661,
+   "precision": 0.996998799519808
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55663,
+   "radar_moving": 180,
+   "lidar_moving": 2223,
+   "lidar_in_box": 1536,
+   "precision": 0.6909581646423751
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55660,
+   "radar_moving": 177,
+   "lidar_moving": 2597,
+   "lidar_in_box": 1506,
+   "precision": 0.5798998844820947
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49076,
+   "radar_moving": 223,
+   "lidar_moving": 1320,
+   "lidar_in_box": 1316,
+   "precision": 0.996969696969697
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49065,
+   "radar_moving": 232,
+   "lidar_moving": 1314,
+   "lidar_in_box": 1314,
+   "precision": 1.0
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55665,
+   "radar_moving": 178,
+   "lidar_moving": 2019,
+   "lidar_in_box": 1304,
+   "precision": 0.645864289252105
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55664,
+   "radar_moving": 295,
+   "lidar_moving": 2065,
+   "lidar_in_box": 1260,
+   "precision": 0.6101694915254238
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49077,
+   "radar_moving": 263,
+   "lidar_moving": 1221,
+   "lidar_in_box": 1204,
+   "precision": 0.9860769860769861
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49074,
+   "radar_moving": 196,
+   "lidar_moving": 1173,
+   "lidar_in_box": 1160,
+   "precision": 0.9889173060528559
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49060,
+   "radar_moving": 345,
+   "lidar_moving": 1164,
+   "lidar_in_box": 1153,
+   "precision": 0.9905498281786942
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55666,
+   "radar_moving": 243,
+   "lidar_moving": 1803,
+   "lidar_in_box": 1023,
+   "precision": 0.56738768718802
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55668,
+   "radar_moving": 76,
+   "lidar_moving": 2154,
+   "lidar_in_box": 988,
+   "precision": 0.4586815227483751
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55654,
+   "radar_moving": 167,
+   "lidar_moving": 2986,
+   "lidar_in_box": 963,
+   "precision": 0.32250502344273274
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55652,
+   "radar_moving": 224,
+   "lidar_moving": 2969,
+   "lidar_in_box": 933,
+   "precision": 0.3142472212866285
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53842,
+   "radar_moving": 33,
+   "lidar_moving": 905,
+   "lidar_in_box": 902,
+   "precision": 0.9966850828729282
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53826,
+   "radar_moving": 74,
+   "lidar_moving": 818,
+   "lidar_in_box": 817,
+   "precision": 0.9987775061124694
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49083,
+   "radar_moving": 203,
+   "lidar_moving": 822,
+   "lidar_in_box": 813,
+   "precision": 0.9890510948905109
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55651,
+   "radar_moving": 106,
+   "lidar_moving": 2743,
+   "lidar_in_box": 813,
+   "precision": 0.2963908129784907
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53843,
+   "radar_moving": 20,
+   "lidar_moving": 812,
+   "lidar_in_box": 810,
+   "precision": 0.9975369458128078
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53825,
+   "radar_moving": 37,
+   "lidar_moving": 805,
+   "lidar_in_box": 804,
+   "precision": 0.9987577639751553
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53840,
+   "radar_moving": 76,
+   "lidar_moving": 804,
+   "lidar_in_box": 795,
+   "precision": 0.9888059701492538
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49067,
+   "radar_moving": 242,
+   "lidar_moving": 798,
+   "lidar_in_box": 782,
+   "precision": 0.9799498746867168
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53833,
+   "radar_moving": 54,
+   "lidar_moving": 782,
+   "lidar_in_box": 776,
+   "precision": 0.9923273657289002
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53837,
+   "radar_moving": 21,
+   "lidar_moving": 751,
+   "lidar_in_box": 749,
+   "precision": 0.9973368841544608
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 52794,
+   "radar_moving": 96,
+   "lidar_moving": 845,
+   "lidar_in_box": 747,
+   "precision": 0.8840236686390532
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55667,
+   "radar_moving": 106,
+   "lidar_moving": 1982,
+   "lidar_in_box": 746,
+   "precision": 0.3763874873864783
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53828,
+   "radar_moving": 53,
+   "lidar_moving": 752,
+   "lidar_in_box": 744,
+   "precision": 0.9893617021276596
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 52798,
+   "radar_moving": 43,
+   "lidar_moving": 748,
+   "lidar_in_box": 729,
+   "precision": 0.9745989304812834
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53839,
+   "radar_moving": 34,
+   "lidar_moving": 734,
+   "lidar_in_box": 725,
+   "precision": 0.9877384196185286
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53819,
+   "radar_moving": 72,
+   "lidar_moving": 721,
+   "lidar_in_box": 714,
+   "precision": 0.9902912621359223
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49246,
+   "radar_moving": 72,
+   "lidar_moving": 703,
+   "lidar_in_box": 701,
+   "precision": 0.9971550497866287
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49054,
+   "radar_moving": 489,
+   "lidar_moving": 714,
+   "lidar_in_box": 686,
+   "precision": 0.9607843137254902
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53820,
+   "radar_moving": 83,
+   "lidar_moving": 686,
+   "lidar_in_box": 684,
+   "precision": 0.9970845481049563
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55613,
+   "radar_moving": 199,
+   "lidar_moving": 1669,
+   "lidar_in_box": 678,
+   "precision": 0.40623127621330135
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53619,
+   "radar_moving": 60,
+   "lidar_moving": 676,
+   "lidar_in_box": 673,
+   "precision": 0.9955621301775148
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55612,
+   "radar_moving": 209,
+   "lidar_moving": 1218,
+   "lidar_in_box": 662,
+   "precision": 0.5435139573070608
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55662,
+   "radar_moving": 172,
+   "lidar_moving": 2285,
+   "lidar_in_box": 662,
+   "precision": 0.2897155361050328
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 53821,
+   "radar_moving": 79,
+   "lidar_moving": 663,
+   "lidar_in_box": 655,
+   "precision": 0.9879336349924586
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55602,
+   "radar_moving": 216,
+   "lidar_moving": 974,
+   "lidar_in_box": 655,
+   "precision": 0.6724845995893224
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55669,
+   "radar_moving": 132,
+   "lidar_moving": 1629,
+   "lidar_in_box": 636,
+   "precision": 0.39042357274401474
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55650,
+   "radar_moving": 162,
+   "lidar_moving": 2151,
+   "lidar_in_box": 630,
+   "precision": 0.2928870292887029
+  },
+  {
+   "snippet": "snippet_37",
+   "frame": 64015,
+   "radar_moving": 59,
+   "lidar_moving": 802,
+   "lidar_in_box": 630,
+   "precision": 0.7855361596009975
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49278,
+   "radar_moving": 46,
+   "lidar_moving": 636,
+   "lidar_in_box": 629,
+   "precision": 0.9889937106918238
+  },
+  {
+   "snippet": "snippet_37",
+   "frame": 64010,
+   "radar_moving": 61,
+   "lidar_moving": 742,
+   "lidar_in_box": 627,
+   "precision": 0.8450134770889488
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55608,
+   "radar_moving": 183,
+   "lidar_moving": 938,
+   "lidar_in_box": 622,
+   "precision": 0.6631130063965884
+  },
+  {
+   "snippet": "snippet_37",
+   "frame": 64011,
+   "radar_moving": 101,
+   "lidar_moving": 813,
+   "lidar_in_box": 610,
+   "precision": 0.7503075030750308
+  },
+  {
+   "snippet": "snippet_37",
+   "frame": 64013,
+   "radar_moving": 56,
+   "lidar_moving": 799,
+   "lidar_in_box": 604,
+   "precision": 0.7559449311639549
+  },
+  {
+   "snippet": "snippet_37",
+   "frame": 64012,
+   "radar_moving": 52,
+   "lidar_moving": 757,
+   "lidar_in_box": 603,
+   "precision": 0.7965653896961691
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49268,
+   "radar_moving": 57,
+   "lidar_moving": 606,
+   "lidar_in_box": 599,
+   "precision": 0.9884488448844885
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55611,
+   "radar_moving": 156,
+   "lidar_moving": 1350,
+   "lidar_in_box": 599,
+   "precision": 0.4437037037037037
+  },
+  {
+   "snippet": "snippet_37",
+   "frame": 64014,
+   "radar_moving": 88,
+   "lidar_moving": 727,
+   "lidar_in_box": 584,
+   "precision": 0.8033012379642366
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55615,
+   "radar_moving": 186,
+   "lidar_moving": 1233,
+   "lidar_in_box": 578,
+   "precision": 0.46877534468775345
+  },
+  {
+   "snippet": "snippet_27",
+   "frame": 49267,
+   "radar_moving": 23,
+   "lidar_moving": 578,
+   "lidar_in_box": 575,
+   "precision": 0.9948096885813149
+  },
+  {
+   "snippet": "snippet_31",
+   "frame": 52846,
+   "radar_moving": 40,
+   "lidar_moving": 583,
+   "lidar_in_box": 575,
+   "precision": 0.9862778730703259
+  },
+  {
+   "snippet": "snippet_33",
+   "frame": 55674,
+   "radar_moving": 124,
+   "lidar_moving": 1160,
+   "lidar_in_box": 562,
+   "precision": 0.4844827586206897
+  }
+ ]
+}

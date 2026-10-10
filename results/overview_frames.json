@@ -1,0 +1,37 @@
+{
+ "kgalagadi": {
+  "rgb": "/mnt/Longleat/frankenstein/wildpose/2022-12-12_003/sync_rgb/1224554_1670806767_563083800.webp",
+  "depth": null,
+  "conf": 0.3027741696305341,
+  "box": [
+   67.81651306152344,
+   1.51983642578125,
+   513.3447265625,
+   488.84942626953125
+  ]
+ },
+ "bubye": {
+  "rgb": "/mnt/hdd/WildDepth/wilddepth_release/19372084/warthog_1/rgb/00399.jpg",
+  "depth": "/mnt/hdd/WildDepth/wilddepth_release/19372084/warthog_1/depthm/00399.png",
+  "scale": 100.0,
+  "conf": 0.0707687614393574,
+  "box": [
+   1357.701416015625,
+   588.0093994140625,
+   1509.2867431640625,
+   688.8070068359375
+  ]
+ },
+ "morphocam": {
+  "rgb": "/mnt/hdd/WildDepth/wilddepth_release/19152060/July08/Rhino_1/rgb/73714.jpg",
+  "depth": "/mnt/hdd/WildDepth/wilddepth_release/19152060/July08/Rhino_1/depthm/73714.png",
+  "scale": 1000.0,
+  "conf": 0.08889370151149896,
+  "box": [
+   1419.5504150390625,
+   643.7861328125,
+   1620.7789306640625,
+   749.5306396484375
+  ]
+ }
+}
