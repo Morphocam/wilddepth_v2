@@ -68,4 +68,5 @@ Weights: MegaDetector V6 (yolov9-c, ultralytics format) and SAM2.1-b (`sam2.1_b.
 - See `results/RESULTS.md` for the LiDAR->camera extrinsic drift issue found in E11b.
 
 ## License
-TODO: choose a license before making the repository public.
+
+Released under the [MIT License](LICENSE).
