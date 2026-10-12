@@ -46,9 +46,9 @@ Weights: MegaDetector V6 (yolov9-c, ultralytics format) and SAM2.1-b (`sam2.1_b.
 ## Data
 | variable | default | contents |
 |---|---|---|
-| `WD2_RADAR_ROOT` | `/mnt/hdd/WildDepth/radar/snippets` | 37 July-8 snippets: `rgb/ lidar/ radar/ depthm/ refined_extrinsics/ radar_match_log.csv` |
-| `WD2_CACHE` | `/mnt/hdd/WildDepth/wd2_cache` | per-frame outputs of `00_precompute.py` (~10 GB) |
-| `WD2_BENCH` | `/mnt/hdd/WildDepth/benchmark` | frozen hidden-test bundle (organisers only) |
+| `WD2_RADAR_ROOT` | `/WildDepth/radar/snippets` | 37 July-8 snippets: `rgb/ lidar/ radar/ depthm/ refined_extrinsics/ radar_match_log.csv` |
+| `WD2_CACHE` | `/WildDepth/wd2_cache` | per-frame outputs of `00_precompute.py` (~10 GB) |
+| `WD2_BENCH` | `/WildDepth/benchmark` | frozen hidden-test bundle (organisers only) |
 
 `io.list_snippets()` raises if the root holds no snippets (the old loader silently returned 0).
 
